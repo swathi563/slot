@@ -24,9 +24,134 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+~~~
+<!doctype html>
+<html>
+<head>
+<title>	slot time table </title>
+<style>
+table,th,td
+{ 
+border: 2px double;
+text-align:center
+}
+#clr
+{
+background-color:yellow
+}
+#time{
+text-align:center
+}
 
+</style>
+</head>
+<body align="center">
+<img src="logo.png" height=100 width=450><br>
+&nbsp <b> SLOT TIME TABLE -SWATHI S (25018895)</b>
+<table align="center">
+<thead>
+<tr style="background-color:yellow">
+<th>Day/Time</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+</tr>
+</thead>
+
+<tbody style="background-color:aqua">
+
+<tr>
+<td id="clr">8-10</td>
+<td colspan=3>FREE SLOT</td>
+<td>PHY</td>
+<td>CHEM</td>
+</tr>
+
+<tr>
+<td id="clr">10-12</td>
+<td>GER</td>
+<td>FREE SLOT</td>
+<td>FWAD</td>
+<td>FWAD</td>
+<td>PHY</td>
+</tr>
+
+<tr>
+<td id="clr">12-1</td>
+<td colspan=5>LUNCH</td>
+</tr>
+
+<tr>
+<td id="clr">1-3</td>
+<td colspan=2>FREE SLOT</td>
+<td>MAT</td>
+<td>MAT</td>
+<td>SS</td>
+</tr>
+
+<tr>
+<td id="clr">1-3</td>
+<td colspan=2>FREE SLOT</td>
+<td>GER</td>
+<td>CHE</td>
+<td>FWAD</td>
+</tr>
+
+
+</tbody>
+</table>
+<br>
+<br>
+<br>
+<br>
+<table align="center">
+<tr>
+<th> S.No </th>
+<th> Subject Code </th>
+<th style="text-align:center"> Subject Name</th>
+
+</tr>
+<tr>
+<td style="text-align:center"> 1. </td>
+<td style="text-align:center"> 19AI414</td>
+<td style="text-align:left"> Fundamentals of Web Application Development(FWAD)</td>
+</tr>
+<tr>
+<td style="text-align:center"> 2. </td>
+<td style="text-align:center"> 19EN612</td>
+<td style="text-align:left"> German Basic(GER)</td>
+</tr>
+<tr>
+<td style="text-align:center"> 3. </td>
+<td style="text-align:center"> 19PH206</td>
+<td style="text-align:left"> Physics for Information Technology(PHY)</td>
+</tr>
+<tr>
+<td id="time"> 4. </td>
+<td id="time"> 19CY205</td>
+<td style="text-align:left"> Principles of Chemistry in Engineering</td>
+</tr>
+<tr>
+<td id="time"> 5. </td>
+<td id="time"> 19MA201</td>
+<td style="text-align:left"> Calculus and Matrix Algebra(MAT)</td>
+</tr>
+<tr>
+<td id="time"> 6. </td>
+<td id="time"> 19EY701</td>
+<td style="text-align:left"> Soft Skills(SS)</td>
+</tr>
+</table>
+
+</body>
+
+</html>
+~~~
 
 ## OUTPUT
+![WhatsApp Image 2025-12-27 at 4 22 29 PM](https://github.com/user-attachments/assets/8f6915f0-56ae-4174-830d-68a3f7b6f7ca)
 
 
 ## RESULT
